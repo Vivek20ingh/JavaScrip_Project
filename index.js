@@ -54,7 +54,7 @@ function fail() {
     secondCard.classList.remove("flip");
     reset();
 
-  },300)
+  },400)
 
 }
 
