@@ -5,7 +5,7 @@
 }
 
 body {
-  height: 100vh;
+  height: 80vh;
   background-color: rgb(66, 66, 66);
   display: flex;
 }
@@ -53,4 +53,12 @@ body {
 
 .front {
   transform: rotateY(180deg);
+}
+
+
+.text1{
+  font-size: 25px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
