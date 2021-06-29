@@ -4,7 +4,7 @@
   "description": "Game (searching for same type of emoji) First click on two different hidden box. If emoji will diffent than they will become hidden again else try for other boxex until all boxex are opened.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d JavaScrip_Project"
   },
   "repository": {
     "type": "git",
