@@ -2,7 +2,10 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>LearnCodeOnline</title>
+    <title>Flip Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="icon" href="lco.png" sizes="16x16" type="image/png" />
     <link
       rel="stylesheet"
@@ -11,13 +14,14 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <div>
     <div class="gameContainer">
       <div class="container">
-        <h1 class="text-center text-white display-4">Game</h1>
+        <h1 class="heading">Game</h1>
       </div>
       <div class="card" data-image="evilface">
         <img src="evilface.png" class="front flip" alt="evilface" />
-        <img src="lco.png" class="back" alt="lco" />
+        <img src="lco.png" class="back" alt="lco"  />
       </div>
       <div class="card" data-image="evilface">
         <img src="evilface.png" class="front" alt="evilface" />
@@ -80,11 +84,12 @@
         <img src="lco.png" class="back" alt="lco" />
       </div>
     </div>
-    <h3 class="text1">
-      Description: Click on any two closed boxes. If both boxes have
-      same type emoji, they will remain open otherwise they will flip.
-       When you open all boxex you win the game.
-      </h3>    
+    <div class="desc">
+    <p>
+      Description: Flip all boxes to win. Two boxes will flip only if they have same emoji.
+    </p>    
+    </div>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>

@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -5,15 +6,28 @@
 }
 
 body {
-  height: 80vh;
-  background-color: rgb(66, 66, 66);
+  /* height: 80vh; */
+  /* ackground-color: rgb(54, 57, 59); */
+  /* display: flex; */
+  background-color: #32a7d6;
+background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
+}
+.heading {
   display: flex;
+  justify-content: center;
+  font-family: 'Press Start 2P';
+  font-size: 3.4rem;
+  color: rgb(45, 104, 182);
 }
 
 .gameContainer {
-  width: 600px;
-  height: 600px;
-  margin: auto;
+  width: 30rem;
+  height: 30rem;
+  /* margin: auto; */
+  margin-left: 30vw;
+  margin-right: 30vw;
+  margin-top: 5vh;
+  margin-bottom: 3vh;
   display: flex;
   flex-wrap: wrap;
   perspective: 1000px;
@@ -55,10 +69,19 @@ body {
   transform: rotateY(180deg);
 }
 
-
-.text1{
-  font-size: 28px;
-  position: absolute;
-  width: 100%;
-  bottom: 0;
+.desc {
+  display: flex;
+  font-weight: bold;
+  font-size: 28;
+  width: 45rem;
+  border: 2px solid rgb(58, 63, 88);
+  margin-left: 20vw;
+  margin-right: 20vw;
+  padding: 10px;
+  /* align-items: flex-end;s */
+  justify-content: center;
+  margin-top: 11vh;
+  color: rgba(38, 44, 129, 0.795);
+  /* margin-bottom: 1vh; */
 }
+
