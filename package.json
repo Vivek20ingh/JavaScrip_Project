@@ -1,0 +1,23 @@
+{
+  "name": "javascrip_project",
+  "version": "1.0.0",
+  "description": "Game (searching for same type of emoji) First click on two different hidden box. If emoji will diffent than they will become hidden again else try for other boxex until all boxex are opened.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vivek20ingh/JavaScrip_Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vivek20ingh/JavaScrip_Project/issues"
+  },
+  "homepage": "https://github.com/Vivek20ingh/JavaScrip_Project#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
